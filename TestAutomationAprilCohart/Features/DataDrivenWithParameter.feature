@@ -9,7 +9,8 @@ Scenario: Data Driven With Parameter
 	And   I enter My Username test "LWPLONNDON"
 	And   I enter My Email text "lwplondon@gdemo.com"
 	And   I enter my Password text "Passwordsecure" 
-	#And   I added something else
+	And  I added something else
+	And   I add Bigday branch 
 	When  I click on the Sign up Button
 	Then  I should be able to register successfully
 
